@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <header className="w-full bg-white text-black border-b border-gray-200 h-[137px] relative">
       <nav className="container mx-auto flex justify-between items-center h-full">
-        
+
         {/* Logo */}
         <Link href="/" className="flex-shrink-0 pl-[63px]">
           <Image 
@@ -36,7 +36,7 @@ const Header = () => {
             className="w-[124px] h-[129px]"
           />
         </Link>
-        
+
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center gap-[52.75px] pr-[35.25px]">
           <div className="flex items-center gap-[21.75px]">
@@ -70,8 +70,12 @@ const Header = () => {
           <HeaderLanguageSwitcher />
         </div>
 
-        {/* Mobile Menu Button */}
-        <div className="lg:hidden pr-[35.25px]">
+        {/* Mobile Hamburger + Translate */}
+        <div className="flex items-center gap-4 lg:hidden pr-[35.25px]">
+          {/* Translate always visible */}
+          <HeaderLanguageSwitcher />
+
+          {/* Hamburger */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="text-3xl text-gray-800"
@@ -111,8 +115,7 @@ const Header = () => {
             {intl.formatMessage({ id: "header.getQuote" })}
           </Link>
 
-          {/* Mobile Language Switcher */}
-          <HeaderLanguageSwitcher />
+          {/* Note: Mobile language switcher is removed from menu */}
         </div>
       )}
     </header>
