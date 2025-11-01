@@ -22,6 +22,27 @@
   "hero.title": "Expertise in Electrical, Plumbing, and Complete Fit-Out Services across UAE",
   "hero.getStarted": "Get Start Now",
   "hero.viewServices": "View all Services",
-  "hero.imageAlt": "Service Illustration"
+  "hero.imageAlt": "Service Illustration",
+  "services.headingLeft": "We always provide the best service",
+  "services.headingRight": "Services",
+  "service.plumbing.title": "Plumbing & Sanitary Installation",
+  "service.plumbing.description": "Professional installation and repair of water supply, drainage networks, and sanitary fixtures, guaranteed leak-free and compliant.",
+  "service.painting.title": "Professional Painting Services",
+  "service.painting.description": "Superior interior and exterior painting using premium materials for vibrant residential and commercial finishes.",
+  "service.floor.title": "Floor & Wall Tiling Works",
+  "service.floor.description": "Efficient heating, ventilation, and air conditioning solutions for a comfortable indoor environment.Flawless installation of floor and wall tiles (ceramic, marble, etc.) with meticulous preparation for durability and aesthetics.",
+  "service.plaster.title": "Plaster Works",
+  "service.plaster.description": "Professional plaster application and repair for smooth, durable wall and ceiling surfaces, ready for paint or finishes.",
+  "service.electrical.title": "Electrical Repair & Maintenance",
+  "service.electrical.description": "Safe and efficient repair, maintenance, and installation of all electrical fittings, fixtures, and switches by certified technicians.",
+  "service.electromechanical.title": "Electromechanical Maintenance",
+  "service.electromechanical.description": "Installation and preventive maintenance of critical equipment, ensuring reliability, safety, and peak operational performance.",
+  "service.ceilings.title": "Ceilings & Partitions",
+  "service.ceilings.description": "Professional plaster application and repair for smooth, durable wall and ceiling surfaces, ready for paint or finishes.",
+  "service.wallpaper.title": "Professional Wallpaper Fixing",
+  "service.wallpaper.description": "Expert application and removal of all wallpaper types for a flawless finish, enhancing your interior aesthetics.",
+  "service.carpentry.title": "Carpentry & Wood Flooring",
+  "service.carpentry.description": "Expert craftsmanship for custom carpentry, wood flooring installation, repair, and finishing with structural integrity guaranteed.",
+  "button.bookNow": "Book Now"
 }
 
