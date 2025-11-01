@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import IntlProviderWrapper from "./components/IntlProviderWrapper";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import HomeHero from "./components/HomeHero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <IntlProviderWrapper>
           <Header />
+          <HomeHero />
           <main className="flex-grow">{children}</main>
           <Footer />
         </IntlProviderWrapper>
