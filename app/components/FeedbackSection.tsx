@@ -45,17 +45,46 @@ const FeedbackSection: React.FC = () => {
           </p>
 
           {/* Carousel Arrows */}
-          <div className="flex gap-3 mt-4">
-            {/* Backward */}
-            <div className="flex justify-center items-center p-3 bg-white rounded cursor-pointer" onClick={handlePrev}>
-              {/* SVG icon remains unchanged */}
-            </div>
+<div className="flex gap-3 mt-4">
+  {/* Left Button */}
+  <div
+    className="flex justify-center items-center p-3 bg-white rounded cursor-pointer"
+    onClick={handlePrev}
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <g clipPath="url(#clip0_0_83)">
+        <line y1="-0.75" x2="14.0377" y2="-0.75" transform="matrix(-1 8.74228e-08 8.74228e-08 1 18 9)" stroke="#005BAA" strokeWidth="1.5"/>
+        <line y1="-0.75" x2="8.20257" y2="-0.75" transform="matrix(-0.707107 0.707107 0.707107 0.707107 10.3947 3.0293)" stroke="#005BAA" strokeWidth="1.5"/>
+        <line y1="-0.75" x2="8.2308" y2="-0.75" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 8.82005 14.1072)" stroke="#005BAA" strokeWidth="1.5"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_0_83">
+          <rect width="18" height="18" fill="white" transform="matrix(4.37114e-08 1 1 -4.37114e-08 0 7.86805e-07)"/>
+        </clipPath>
+      </defs>
+    </svg>
+  </div>
 
-            {/* Forward */}
-            <div className="flex justify-center items-center p-3 bg-[#CF3D31] rounded-[7.099px] cursor-pointer" onClick={handleNext}>
-              {/* SVG icon remains unchanged */}
-            </div>
-          </div>
+  {/* Right Button */}
+  <div
+    className="flex justify-center items-center p-3 bg-[#CF3D31] rounded-[7.099px] cursor-pointer"
+    onClick={handleNext}
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <g clipPath="url(#clip0_0_88)">
+        <line x1="8.52372e-07" y1="8.25" x2="14.0377" y2="8.25" stroke="white" strokeWidth="1.5"/>
+        <line x1="8.13562" y1="2.49897" x2="13.9357" y2="8.29906" stroke="white" strokeWidth="1.5"/>
+        <line x1="8.64963" y1="13.5768" x2="14.4697" y2="7.7568" stroke="white" strokeWidth="1.5"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_0_88">
+          <rect width="18" height="18" fill="white" transform="translate(18) rotate(90)"/>
+        </clipPath>
+      </defs>
+    </svg>
+  </div>
+</div>
+
         </div>
 
         {/* Right Column */}
