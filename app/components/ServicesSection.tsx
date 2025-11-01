@@ -76,6 +76,21 @@ const ServicesSection: React.FC = () => {
             </div>
           ))}
         </div>
+
+        {/* Buttons Section */}
+        <div className="flex flex-row gap-3 mt-4 md:mt-6">
+          <button
+            className="rounded-[4.5px] bg-[#CF3D31] text-white font-lato text-[13px] md:text-[15px] font-medium px-6 py-[9px] flex items-center justify-center gap-[7.5px] hover:opacity-90 transition-all"
+          >
+            {intl.formatMessage({ id: "servicesSection.bookNow" })}
+          </button>
+
+          <button
+            className="flex items-center justify-center gap-[7.5px] border border-[#666] bg-white text-[#111D15] font-lato text-[13px] md:text-[15px] font-medium px-6 py-[9px] rounded-[4.5px] hover:bg-gray-100 transition-all"
+          >
+            {intl.formatMessage({ id: "servicesSection.knowMore" })}
+          </button>
+        </div>
       </div>
     </section>
   );
