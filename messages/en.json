@@ -18,6 +18,10 @@
   "header.contact": "Contact",
   "header.getQuote": "Get a Quote",
   "home.title": "Your Page Content Starts Here",
-  "home.description": "This content is inside your 1080px container. The header above is 137px tall and the logo is 124x129px."
+  "home.description": "This content is inside your 1080px container. The header above is 137px tall and the logo is 124x129px.",
+  "hero.title": "Expertise in Electrical, Plumbing, and Complete Fit-Out Services across UAE",
+  "hero.getStarted": "Get Start Now",
+  "hero.viewServices": "View all Services",
+  "hero.imageAlt": "Service Illustration"
 }
 

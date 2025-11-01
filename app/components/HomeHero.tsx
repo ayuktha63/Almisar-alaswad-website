@@ -1,53 +1,54 @@
-
 'use client';
 
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useIntl } from 'react-intl';
 
 const HomeHero: React.FC = () => {
-  return (
-<div
-  className="w-full min-h-screen bg-cover bg-center flex justify-center items-center -mt-10 md:-mt-16"
-  style={{
-    backgroundImage: "url('/bg-image.svg')",
-  }}
->
+  const intl = useIntl();
 
+  return (
+    <div
+      className="w-full min-h-screen bg-cover bg-center flex justify-center items-center -mt-10 md:-mt-16"
+      style={{
+        backgroundImage: "url('/bg-image.svg')",
+      }}
+    >
       <div className="flex flex-col md:flex-row justify-between items-center w-[90%] max-w-6xl">
+        
         {/* Left Section */}
         <div className="flex flex-col gap-10">
+          
           {/* Text + Buttons */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 text-center md:text-left">
             <h1 className="text-[#111D15] text-[28px] md:text-[36px] font-bold leading-snug max-w-[500px] font-['Be Vietnam Pro']">
-              Expertise in Electrical, Plumbing, and Complete Fit-Out Services across UAE
+              {intl.formatMessage({ id: "hero.title" })}
             </h1>
 
             {/* Buttons */}
-{/* Buttons */}
-<div className="flex gap-4 justify-center">
-  <Link
-    href="#contact"
-    className="rounded-[4.5px] bg-[#CF3D31] flex justify-center items-center gap-[7.5px] px-6 py-3 text-white font-['Be Vietnam Pro'] text-[12px] font-semibold"
-  >
-    Get Start Now
-  </Link>
+            <div className="flex gap-4 justify-center md:justify-start">
+              <Link
+                href="#contact"
+                className="rounded-[4.5px] bg-[#CF3D31] flex justify-center items-center gap-[7.5px] px-6 py-3 text-white font-['Be Vietnam Pro'] text-[12px] font-semibold"
+              >
+                {intl.formatMessage({ id: "hero.getStarted" })}
+              </Link>
 
-  <Link
-    href="#services"
-    className="flex justify-center items-center gap-[7.5px] px-6 py-3 border-[0.75px] border-[#666] rounded-[4.5px] text-[#111D15] font-['Be Vietnam Pro'] text-[12px] font-semibold"
-  >
-    View all Services
-  </Link>
-</div>
-
+              <Link
+                href="#services"
+                className="flex justify-center items-center gap-[7.5px] px-6 py-3 border-[0.75px] border-[#666] rounded-[4.5px] text-[#111D15] font-['Be Vietnam Pro'] text-[12px] font-semibold"
+              >
+                {intl.formatMessage({ id: "hero.viewServices" })}
+              </Link>
+            </div>
           </div>
 
           {/* Lower Image */}
-          <div className="w-[408px] h-[130px] aspect-[204/65]">
+          <div className="w-[408px] h-[130px] aspect-[204/65] mx-auto md:mx-0">
             <Image
               src="/your-lower-image.svg"
-              alt="Service Illustration"
+              alt={intl.formatMessage({ id: "hero.imageAlt" })}
               width={408}
               height={130}
               className="object-contain"
@@ -56,19 +57,18 @@ const HomeHero: React.FC = () => {
           </div>
         </div>
 
-        {/* Right Section */}
-{/* Right Section (without border) */}
-<div
-  className="mt-10 md:mt-0 w-[390px] h-[393px] flex-shrink-0 rounded-[15px] bg-center bg-no-repeat"
-  style={{
-    backgroundImage: "url('/side-hero.svg')",
-    backgroundSize: "contain",
-    backgroundColor: "lightgray",
-  }}
-/>
-
-</div>
-    </div>);
+        {/* Right Section (Hidden on small & medium screens) */}
+        <div
+          className="hidden lg:block w-[390px] h-[393px] flex-shrink-0 rounded-[15px] bg-center bg-no-repeat"
+          style={{
+            backgroundImage: "url('/side-hero.svg')",
+            backgroundSize: "contain",
+            backgroundColor: "lightgray",
+          }}
+        />
+      </div>
+    </div>
+  );
 };
 
 export default HomeHero;
