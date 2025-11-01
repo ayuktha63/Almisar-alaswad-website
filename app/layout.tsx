@@ -4,6 +4,7 @@ import IntlProviderWrapper from "./components/IntlProviderWrapper";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import HomeHero from "./components/HomeHero";
+import Services from "./components/Services";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <IntlProviderWrapper>
           <Header />
           <HomeHero />
+          <Services />
           <main className="flex-grow">{children}</main>
           <Footer />
         </IntlProviderWrapper>
