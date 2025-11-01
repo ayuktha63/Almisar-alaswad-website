@@ -66,19 +66,19 @@
   "servicesSection.knowMore": "Know More",
 
 
-  "feedback.heading": "What Our Clients Say",
-  "feedback.user1.name": "John Smith",
-  "feedback.user1.comment": "Excellent service! The team was professional, and the work was top-notch.",
-  "feedback.user2.name": "Fatima Ali",
-  "feedback.user2.comment": "Very responsive and skilled technicians. Highly recommend their service!",
-  "feedback.user3.name": "Ahmed Khan",
-  "feedback.user3.comment": "Great experience from start to finish. On-time and affordable.",
-
-  "contact.heading": "Get in Touch",
-  "contact.description": "Reach out to us for inquiries, service bookings, or custom solutions. We’re here to help you 24/7.",
-  "contact.namePlaceholder": "Your Name",
-  "contact.emailPlaceholder": "Your Email",
-  "contact.messagePlaceholder": "Your Message",
-  "contact.submit": "Send Message"
+  "feedback.heading": "Feedback About Their Experience With Us",
+  "feedback.description": "Read testimonials from our satisfied clients. See how our cleaning services have made a difference in their lives and homes.",
+  
+  "testimonial.robert.name": "Robert Fox",
+  "testimonial.robert.business": "Business",
+  "testimonial.robert.comment": "Excellent service! The team was punctual, thorough, and left my home sparkling clean. Highly recommend for anyone needing a reliable and detailed cleaning service.",
+  
+  "testimonial.jane.name": "Jane Cooper",
+  "testimonial.jane.business": "Business",
+  "testimonial.jane.comment": "Amazing experience! Very professional and detailed.",
+  
+  "testimonial.john.name": "John Doe",
+  "testimonial.john.business": "Business",
+  "testimonial.john.comment": "Top-notch cleaning service with friendly staff."
 }
 

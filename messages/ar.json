@@ -63,5 +63,19 @@
   "servicesSection.feature5": "أفضل جودة",
   "servicesSection.feature6": "فريق مرخّص ومؤمَّن",
   "servicesSection.bookNow": "احجز الآن",
-  "servicesSection.knowMore": "اعرف المزيد"
+  "servicesSection.knowMore": "اعرف المزيد",
+  "feedback.heading": "آراء العملاء حول تجربتهم معنا",
+  "feedback.description": "اقرأ شهادات عملائنا الراضين. اكتشف كيف أحدثت خدماتنا في التنظيف فرقًا في حياتهم ومنازلهم.",
+  
+  "testimonial.robert.name": "روبرت فوكس",
+  "testimonial.robert.business": "عمل",
+  "testimonial.robert.comment": "خدمة ممتازة! كان الفريق دقيقًا وموثوقًا وترك منزلي نظيفًا ولامعًا. أنصح بها لأي شخص يحتاج خدمة تنظيف موثوقة ومفصلة.",
+  
+  "testimonial.jane.name": "جين كوبر",
+  "testimonial.jane.business": "عمل",
+  "testimonial.jane.comment": "تجربة رائعة! محترفون ودقيقون للغاية.",
+  
+  "testimonial.john.name": "جون دو",
+  "testimonial.john.business": "عمل",
+  "testimonial.john.comment": "خدمة تنظيف من الدرجة الأولى مع طاقم ودود."
 }
