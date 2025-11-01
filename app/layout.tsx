@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import HomeHero from "./components/HomeHero";
 import Services from "./components/Services";
+import AboutUs from "./components/AboutUs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="pt-30">
             <HomeHero />
             <Services />
+            <AboutUs />
             <main className="flex-grow">{children}</main>
           </div>
           <Footer />

@@ -63,7 +63,6 @@ const servicesData = [
   { image: '/Ceilings-&-Partitions.svg', titleId: 'service.ceilings.title', descriptionId: 'service.ceilings.description' },
   { image: '/Professional-Wallpaper-Fixing.svg', titleId: 'service.wallpaper.title', descriptionId: 'service.wallpaper.description', isPrimary: true },
   { image: '/Carpentry-&-Wood-Flooring.svg', titleId: 'service.carpentry.title', descriptionId: 'service.carpentry.description' },
-  { image: '/air-quality.svg', titleId: 'service.airQuality.title', descriptionId: 'service.airQuality.description' } // new service
 ];
 
 
@@ -78,7 +77,8 @@ const servicesData = [
         </span>
       </div>
 
-      <div className="w-[877.5px] h-[0.75px] bg-[#83A790]" />
+      <div className="w-full max-w-[877.5px] h-[0.75px] bg-[#83A790] mx-auto" />
+
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         {servicesData.map((service, index) => (

@@ -45,16 +45,17 @@ const HomeHero: React.FC = () => {
           </div>
 
           {/* Lower Image */}
-          <div className="w-[408px] h-[130px] aspect-[204/65] mx-auto md:mx-0">
-            <Image
-              src="/your-lower-image.svg"
-              alt={intl.formatMessage({ id: "hero.imageAlt" })}
-              width={408}
-              height={130}
-              className="object-contain"
-              priority
-            />
-          </div>
+          <div className="w-full max-w-[408px] aspect-[204/65] mx-auto md:mx-0">
+        <Image
+            src="/your-lower-image.svg"
+            alt={intl.formatMessage({ id: "hero.imageAlt" })}
+            width={408}
+            height={130}
+            className="object-contain w-full h-full"
+            priority
+        />
+        </div>
+
         </div>
 
         {/* Right Section (Hidden on small & medium screens) */}
