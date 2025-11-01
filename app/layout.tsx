@@ -6,6 +6,7 @@ import "./globals.css";
 import HomeHero from "./components/HomeHero";
 import Services from "./components/Services";
 import AboutUs from "./components/AboutUs";
+import ServicesSection from "./components/ServicesSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <HomeHero />
             <Services />
             <AboutUs />
+            <ServicesSection />
             <main className="flex-grow">{children}</main>
           </div>
           <Footer />
