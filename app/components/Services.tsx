@@ -53,17 +53,19 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ image, titleId, descriptionId
 const Services: React.FC = () => {
   const intl = useIntl();
 
-  const servicesData = [
-    { image: '/plumbing-and-sanitation-work.svg', titleId: 'service.plumbing.title', descriptionId: 'service.plumbing.description' },
-    { image: '/professional-painting-services.svg', titleId: 'service.painting.title', descriptionId: 'service.painting.description', isPrimary: true },
-    { image: '/Floor-&-Wall-Tiling-Works.svg', titleId: 'service.floor.title', descriptionId: 'service.floor.description' },
-    { image: '/Plaster-Works.svg', titleId: 'service.plaster.title', descriptionId: 'service.plaster.description' },
-    { image: '/Electrical-Repair-&-Maintenance.svg', titleId: 'service.electrical.title', descriptionId: 'service.electrical.description', isPrimary: true },
-    { image: '/Electromechanical-Maintenance.svg', titleId: 'service.electromechanical.title', descriptionId: 'service.electromechanical.description' },
-    { image: '/Ceilings-&-Partitions.svg', titleId: 'service.ceilings.title', descriptionId: 'service.ceilings.description' },
-    { image: '/Professional-Wallpaper-Fixing.svg', titleId: 'service.wallpaper.title', descriptionId: 'service.wallpaper.description', isPrimary: true },
-    { image: '/Carpentry-&-Wood-Flooring.svg', titleId: 'service.carpentry.title', descriptionId: 'service.carpentry.description' },
-  ];
+const servicesData = [
+  { image: '/plumbing-and-sanitation-work.svg', titleId: 'service.plumbing.title', descriptionId: 'service.plumbing.description' },
+  { image: '/professional-painting-services.svg', titleId: 'service.painting.title', descriptionId: 'service.painting.description', isPrimary: true },
+  { image: '/Floor-&-Wall-Tiling-Works.svg', titleId: 'service.floor.title', descriptionId: 'service.floor.description' },
+  { image: '/Plaster-Works.svg', titleId: 'service.plaster.title', descriptionId: 'service.plaster.description' },
+  { image: '/Electrical-Repair-&-Maintenance.svg', titleId: 'service.electrical.title', descriptionId: 'service.electrical.description', isPrimary: true },
+  { image: '/Electromechanical-Maintenance.svg', titleId: 'service.electromechanical.title', descriptionId: 'service.electromechanical.description' },
+  { image: '/Ceilings-&-Partitions.svg', titleId: 'service.ceilings.title', descriptionId: 'service.ceilings.description' },
+  { image: '/Professional-Wallpaper-Fixing.svg', titleId: 'service.wallpaper.title', descriptionId: 'service.wallpaper.description', isPrimary: true },
+  { image: '/Carpentry-&-Wood-Flooring.svg', titleId: 'service.carpentry.title', descriptionId: 'service.carpentry.description' },
+  { image: '/air-quality.svg', titleId: 'service.airQuality.title', descriptionId: 'service.airQuality.description' } // new service
+];
+
 
   return (
     <section className="flex flex-col gap-6 items-center py-16 bg-white">

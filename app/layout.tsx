@@ -14,9 +14,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <IntlProviderWrapper>
           <Header />
-          <HomeHero />
-          <Services />
-          <main className="flex-grow">{children}</main>
+          {/* Offset for fixed header */}
+          <div className="pt-30">
+            <HomeHero />
+            <Services />
+            <main className="flex-grow">{children}</main>
+          </div>
           <Footer />
         </IntlProviderWrapper>
       </body>

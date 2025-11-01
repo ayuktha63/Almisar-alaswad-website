@@ -22,7 +22,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="w-full bg-white text-black border-b border-gray-200 h-[137px] relative">
+    <header className="fixed top-0 left-0 w-full bg-white text-black border-b border-gray-200 h-[137px] z-50 ">
       <nav className="container mx-auto flex justify-between items-center h-full">
 
         {/* Logo */}

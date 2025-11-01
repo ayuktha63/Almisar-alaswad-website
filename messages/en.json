@@ -43,6 +43,8 @@
   "service.wallpaper.description": "Expert application and removal of all wallpaper types for a flawless finish, enhancing your interior aesthetics.",
   "service.carpentry.title": "Carpentry & Wood Flooring",
   "service.carpentry.description": "Expert craftsmanship for custom carpentry, wood flooring installation, repair, and finishing with structural integrity guaranteed.",
-  "button.bookNow": "Book Now"
+  "button.bookNow": "Book Now",
+  "service.airQuality.title": "Air Quality Solutions",
+  "service.airQuality.description": "Expert AC installation, proactive maintenance, and advanced air filtration systems for healthy, efficient climate control."
 }
 
