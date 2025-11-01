@@ -47,6 +47,11 @@
   "service.airQuality.title": "Air Quality Solutions",
   "service.airQuality.description": "Expert AC installation, proactive maintenance, and advanced air filtration systems for healthy, efficient climate control.",
   "service.expertTeam.title": "Expert Team",
-  "service.expertTeam.description": "Our certified and professional staff ensures top-tier quality across all 10 specialized services. Your single point of contact for every solution."
+  "service.expertTeam.description": "Our certified and professional staff ensures top-tier quality across all 10 specialized services. Your single point of contact for every solution.",
+   "aboutUs.smallHeading": "Integrated Technical Excellence",
+  "aboutUs.mainHeading": "All-in-One Building Solutions, Delivered with Technical Precision.",
+  "aboutUs.description": "We offer 10+ integrated services—from HVAC, Electrical, and Plumbing (MEP) to Tiling, Painting, and Cleaning. Trust one expert provider to manage your entire property lifecycle.",
+  "aboutUs.buttonText": "Get a Quote",
+  "aboutUs.rightImageAlt": "Illustration of integrated services"
 }
 
