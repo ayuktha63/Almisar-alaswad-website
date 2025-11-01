@@ -63,6 +63,22 @@
   "servicesSection.feature5": "Best Quality",
   "servicesSection.feature6": "Licensed & Insured Team",
   "servicesSection.bookNow": "Book Now",
-  "servicesSection.knowMore": "Know More"
+  "servicesSection.knowMore": "Know More",
+
+
+  "feedback.heading": "What Our Clients Say",
+  "feedback.user1.name": "John Smith",
+  "feedback.user1.comment": "Excellent service! The team was professional, and the work was top-notch.",
+  "feedback.user2.name": "Fatima Ali",
+  "feedback.user2.comment": "Very responsive and skilled technicians. Highly recommend their service!",
+  "feedback.user3.name": "Ahmed Khan",
+  "feedback.user3.comment": "Great experience from start to finish. On-time and affordable.",
+
+  "contact.heading": "Get in Touch",
+  "contact.description": "Reach out to us for inquiries, service bookings, or custom solutions. We’re here to help you 24/7.",
+  "contact.namePlaceholder": "Your Name",
+  "contact.emailPlaceholder": "Your Email",
+  "contact.messagePlaceholder": "Your Message",
+  "contact.submit": "Send Message"
 }
 
