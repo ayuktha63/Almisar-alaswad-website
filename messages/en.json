@@ -52,6 +52,15 @@
   "aboutUs.mainHeading": "All-in-One Building Solutions, Delivered with Technical Precision.",
   "aboutUs.description": "We offer 10+ integrated services—from HVAC, Electrical, and Plumbing (MEP) to Tiling, Painting, and Cleaning. Trust one expert provider to manage your entire property lifecycle.",
   "aboutUs.buttonText": "Get a Quote",
-  "aboutUs.rightImageAlt": "Illustration of integrated services"
+  "aboutUs.rightImageAlt": "Illustration of integrated services",
+  "servicesSection.logoAlt": "Almisar Service Logo",
+  "servicesSection.rightImageAlt": "Right Side Illustration",
+  "servicesSection.description": "Your Trusted Partner for Complete Building Maintenance and Technical Services. We deliver professional, reliable, and certified solutions across all major building disciplines, ensuring your projects run smoothly and your assets are maintained to the highest standards.",
+  "servicesSection.feature1": "Certified Technicians",
+  "servicesSection.feature2": "Next Day Availability",
+  "servicesSection.feature3": "Quality Guaranteed",
+  "servicesSection.feature4": "Affordable Prices",
+  "servicesSection.feature5": "Best Quality",
+  "servicesSection.feature6": "Licensed & Insured Team"
 }
 

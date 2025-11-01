@@ -52,5 +52,14 @@
   "aboutUs.mainHeading": "حلول البناء الشاملة، مقدمة بدقة تقنية",
   "aboutUs.description": "نقدم أكثر من 10 خدمات متكاملة—من التدفئة والتهوية وتكييف الهواء (MEP)، والكهرباء، والسباكة إلى التبليط والطلاء والتنظيف. ثق بمزود واحد لإدارة دورة حياة الممتلكات بالكامل.",
   "aboutUs.buttonText": "احصل على عرض",
-  "aboutUs.rightImageAlt": "توضيح الخدمات المتكاملة"
+  "aboutUs.rightImageAlt": "توضيح الخدمات المتكاملة",
+  "servicesSection.logoAlt": "شعار خدمات المسار",
+  "servicesSection.rightImageAlt": "صورة توضيحية للجانب الأيمن",
+  "servicesSection.description": "شريكك الموثوق لصيانة المباني والخدمات الفنية الكاملة. نقدم حلولًا احترافية وموثوقة ومعتمدة عبر جميع تخصصات البناء الرئيسية، مما يضمن سير مشاريعك بسلاسة وصيانة أصولك بأعلى المعايير.",
+  "servicesSection.feature1": "فنيون معتمدون",
+  "servicesSection.feature2": "توافر في اليوم التالي",
+  "servicesSection.feature3": "جودة مضمونة",
+  "servicesSection.feature4": "أسعار مناسبة",
+  "servicesSection.feature5": "أفضل جودة",
+  "servicesSection.feature6": "فريق مرخّص ومؤمَّن"
 }
