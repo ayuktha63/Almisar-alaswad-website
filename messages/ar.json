@@ -77,5 +77,18 @@
   
   "testimonial.john.name": "جون دو",
   "testimonial.john.business": "عمل",
-  "testimonial.john.comment": "خدمة تنظيف من الدرجة الأولى مع طاقم ودود."
+  "testimonial.john.comment": "خدمة تنظيف من الدرجة الأولى مع طاقم ودود.",
+  "contact.findUs": "اعثر علينا",
+  "contact.callUs": "اتصل بنا",
+  "contact.callNumber": "+971 55 895 6260 | +971 55 205 7197",
+  "contact.emailNow": "أرسل بريدًا إلكترونيًا",
+  "contact.emailAddress": "abdullahelian6@gmail.com",
+  "contact.addressTitle": "العنوان",
+  "contact.address": "مكتب M6-299، مبنى الخبيسي، قطعة 128-246، الخبيسي، دبي.",
+  "contact.keepInTouch": "ابق على تواصل",
+  "contact.description": "نحن نحرص على الرد على استفساراتك بسرعة لضمان حصولك على المساعدة التي تحتاجها في الوقت المناسب",
+  "contact.form.name": "الاسم",
+  "contact.form.email": "البريد الإلكتروني",
+  "contact.form.message": "الرسالة",
+  "contact.form.submit": "إرسال الرسالة"
 }

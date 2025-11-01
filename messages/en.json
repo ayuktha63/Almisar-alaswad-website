@@ -79,6 +79,20 @@
   
   "testimonial.john.name": "John Doe",
   "testimonial.john.business": "Business",
-  "testimonial.john.comment": "Top-notch cleaning service with friendly staff."
+  "testimonial.john.comment": "Top-notch cleaning service with friendly staff.",
+
+    "contact.findUs": "Find us",
+  "contact.callUs": "Call Us",
+  "contact.callNumber": "+971 55 895 6260 | +971 55 205 7197",
+  "contact.emailNow": "Email Now",
+  "contact.emailAddress": "abdullahelian6@gmail.com",
+  "contact.addressTitle": "Address",
+  "contact.address": "Office M6-299, AL KHABEESI BUILDING PLOT 128-246, Al Khabeesi, Dubai.",
+  "contact.keepInTouch": "Keep In Touch",
+  "contact.description": "We prioritize responding to your inquiries promptly to ensure you receive the assistance you need in a timely manner",
+  "contact.form.name": "Name",
+  "contact.form.email": "Email",
+  "contact.form.message": "Message",
+  "contact.form.submit": "Send Message"
 }
 

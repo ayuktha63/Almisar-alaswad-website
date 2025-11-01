@@ -1,15 +1,20 @@
 'use client';
 
 import React from 'react';
+import { useIntl } from 'react-intl';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
 const ContactPage: React.FC = () => {
+  const intl = useIntl();
+
   return (
     <section className="bg-white py-16 px-6 md:px-0">
       <div className="max-w-[1000px] mx-auto flex flex-col md:flex-row gap-12">
         {/* Left Column - Find Us */}
         <div className="flex-1 flex flex-col gap-6">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#111D15]">Find us</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#111D15]">
+            {intl.formatMessage({ id: 'contact.findUs' })}
+          </h2>
 
           {/* Contact Cards */}
           <div className="flex flex-col gap-4">
@@ -19,8 +24,8 @@ const ContactPage: React.FC = () => {
                 <Phone size={18} />
               </div>
               <div className="text-sm text-[#111D15]">
-                <p className="font-medium">Call Us</p>
-                <p className="text-gray-500 text-xs">+971 55 895 6260 | +971 55 205 7197</p>
+                <p className="font-medium">{intl.formatMessage({ id: 'contact.callUs' })}</p>
+                <p className="text-gray-500 text-xs">{intl.formatMessage({ id: 'contact.callNumber' })}</p>
               </div>
             </div>
 
@@ -30,8 +35,8 @@ const ContactPage: React.FC = () => {
                 <Mail size={18} />
               </div>
               <div className="text-sm text-[#111D15]">
-                <p className="font-medium">Email Now</p>
-                <p className="text-gray-500 text-xs">abdullahelian6@gmail.com</p>
+                <p className="font-medium">{intl.formatMessage({ id: 'contact.emailNow' })}</p>
+                <p className="text-gray-500 text-xs">{intl.formatMessage({ id: 'contact.emailAddress' })}</p>
               </div>
             </div>
 
@@ -41,10 +46,8 @@ const ContactPage: React.FC = () => {
                 <MapPin size={18} />
               </div>
               <div className="text-sm text-[#111D15]">
-                <p className="font-medium">Address</p>
-                <p className="text-gray-500 text-xs">
-                  Office M6-299, AL KHABEESI BUILDING PLOT 128-246, Al Khabeesi, Dubai.
-                </p>
+                <p className="font-medium">{intl.formatMessage({ id: 'contact.addressTitle' })}</p>
+                <p className="text-gray-500 text-xs">{intl.formatMessage({ id: 'contact.address' })}</p>
               </div>
             </div>
           </div>
@@ -52,31 +55,33 @@ const ContactPage: React.FC = () => {
 
         {/* Right Column - Contact Form */}
         <div className="flex-1 flex flex-col gap-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#111D15]">Keep In Touch</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#111D15]">
+            {intl.formatMessage({ id: 'contact.keepInTouch' })}
+          </h2>
           <p className="text-gray-600 text-sm md:text-base mb-4">
-            We prioritize responding to your inquiries promptly to ensure you receive the assistance you need in a timely manner
+            {intl.formatMessage({ id: 'contact.description' })}
           </p>
 
           <form className="flex flex-col gap-4">
             <input
               type="text"
-              placeholder="Name"
-              className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none"
+              placeholder={intl.formatMessage({ id: 'contact.form.name' })}
+              className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none placeholder-[#666] text-[#666]"
             />
             <input
               type="email"
-              placeholder="Email"
-              className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none"
+              placeholder={intl.formatMessage({ id: 'contact.form.email' })}
+              className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none placeholder-[#666] text-[#666]"
             />
             <textarea
-              placeholder="Message"
-              className="border border-gray-300 rounded-lg px-4 py-2 h-24 resize-none focus:outline-none"
+              placeholder={intl.formatMessage({ id: 'contact.form.message' })}
+              className="border border-gray-300 rounded-lg px-4 py-2 h-24 resize-none focus:outline-none placeholder-[#666] text-[#666]"
             />
             <button
               type="submit"
               className="bg-[#CF3D31] text-white font-medium py-2 rounded-md hover:opacity-90 transition-all"
             >
-              Sent Message
+              {intl.formatMessage({ id: 'contact.form.submit' })}
             </button>
           </form>
         </div>
